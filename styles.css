@@ -1,8 +1,126 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header{
     height: 60px;
-    background-color: black;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
     color: white;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    gap: 20px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.quote{
+    background-color: #1f2937;
+    height: 280px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+.quote p{
+    font-size: larger;
+}
+
+.pic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.types{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.text{
+    text-align: center;
+    border:.5px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+
+.call{
+    background-color: rgb(153, 153, 153);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call p{
+    font-size: 50px;
+    max-width: 800px;
+}
+
+.call button{
+    padding: 10px 50px;
+    border-radius: 3px;
+    border: 3px solid;
+}
+
+footer{
+    background-color:#1f2937;
+    color: whitesmoke;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.socials{
+    height: 400px;
+    background-color: bisque;
+}
+
+.types div{
+    font-size: large;
+    font-weight: bold;
 }
