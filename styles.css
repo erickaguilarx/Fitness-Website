@@ -1,11 +1,11 @@
-body{
+body {
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-.header{
+.header {
     height: 60px;
     background-color: #1f2937;
     display: flex;
@@ -13,26 +13,26 @@ body{
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     color: white;
     font-weight: 900;
     font-size: 30px;
     margin-left: 40px;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: space-between;
     margin-right: 40px;
     gap: 20px;
 }
 
-a{
+a {
     color: whitesmoke;
     text-decoration: none;
 }
 
-.quote{
+.quote {
     background-color: #1f2937;
     height: 280px;
     color: white;
@@ -43,18 +43,19 @@ a{
     padding-top: 60px;
     padding-bottom: 0px;
 }
-.quote p{
+
+.quote p {
     font-size: larger;
 }
 
-.pic img{
+.pic img {
     width: 150px;
     height: 150px;
     border-radius: 8px;
     border: 1px solid;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -63,28 +64,28 @@ a{
     margin-bottom: 100px;
 }
 
-.types{
+.types {
     display: flex;
     flex-direction: column;
     margin-right: 30px;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 30px;
     margin-top: 100px;
 }
 
-.text{
+.text {
     text-align: center;
-    border:.5px solid black;
+    border: .5px solid black;
     padding: 10px;
     border-radius: 10px;
     background-color: lightgray;
     margin-top: 10px;
 }
 
-.call{
+.call {
     background-color: rgb(153, 153, 153);
     height: 500px;
     display: flex;
@@ -93,19 +94,19 @@ h1{
     align-items: center;
 }
 
-.call p{
+.call p {
     font-size: 50px;
     max-width: 800px;
 }
 
-.call button{
+.call button {
     padding: 10px 50px;
     border-radius: 3px;
     border: 3px solid;
 }
 
-footer{
-    background-color:#1f2937;
+footer {
+    background-color: #1f2937;
     color: whitesmoke;
     height: 50px;
     display: flex;
@@ -115,12 +116,16 @@ footer{
     padding: 0;
 }
 
-.socials{
+.socials {
     height: 400px;
     background-color: bisque;
 }
 
-.types div{
+.types div {
     font-size: large;
     font-weight: bold;
+}
+
+.recipes {
+    color: black;
 }
